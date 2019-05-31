@@ -1,0 +1,8 @@
+load_file("nrngui.hoc")
+xpanel("Choose a figure from Gorin et al. 2016 to calculate")
+  xlabel("Click a button below to reproduce a figure from Gorin et al. 2016")
+  xlabel("Please quit and restart to generate the other figure.")
+  xbutton("Figure 10Hii (top)","load_file(\"Figure10Hii.hoc\")")
+  xbutton("Figure 10Hiii (top)","load_file(\"Figure10Hiii.hoc\")")
+  xbutton("Quit","quit()")
+xpanel()
